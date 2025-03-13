@@ -1,7 +1,8 @@
 /* Ivy Proxy Website Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #0a0a0a;
+    background: url('https://i.ibb.co/YWyF7yM/techno-background.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -13,11 +14,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #111;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .logo img {
-    height: 50px;
+    height: 100px;
 }
 
 nav ul {
@@ -42,7 +43,7 @@ nav a {
 
 #hero {
     padding: 100px 20px;
-    background: linear-gradient(135deg, #121212, #1e1e1e);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(30, 30, 30, 0.9));
 }
 
 .cta {
@@ -68,14 +69,19 @@ nav a {
 }
 
 .plan {
-    background-color: #222;
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     border-radius: 10px;
     width: 200px;
 }
 
+#buy-now {
+    text-align: center;
+    margin: 50px 0;
+}
+
 footer {
-    background-color: #111;
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 10px;
     margin-top: 20px;
 }
