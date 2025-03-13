@@ -11,14 +11,28 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .logo img {
-    height: 100px;
+    height: 120px;
+}
+
+.logo h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: gold;
 }
 
 nav ul {
